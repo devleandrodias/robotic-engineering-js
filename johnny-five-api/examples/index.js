@@ -1,5 +1,6 @@
 const { led } = require("./led/led");
 const { blink } = require("./blink/blink");
+const { trafficLight } = require("./traffic-light/traffic-light");
 
 const projects = [
   {
@@ -11,6 +12,11 @@ const projects = [
     name: "Led",
     description: "Teste",
     run: led,
+  },
+  {
+    name: "Traffic Light",
+    description: "Test..",
+    run: trafficLight,
   },
 ];
 
